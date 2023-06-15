@@ -24,7 +24,7 @@
 This repository provides Go bindings for the [NVIDIA Management Library API
 (NVML)](https://docs.nvidia.com/deploy/nvml-api/).
 
-At present, these bindings are only supported on **Linux**.
+At present, these bindings are only supported on **Linux**. Functionality on **macOS** is experimental.
 
 These bindings are not a reimplementation of NVML in Go, but rather a set of
 wrappers around the C API provided by `libnvidia-ml.so`. This library is part
