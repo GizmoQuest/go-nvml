@@ -17,7 +17,7 @@ package nvml
 import (
 	"fmt"
 
-	"github.com/NVIDIA/go-nvml/pkg/dl"
+	"github.com/GizmoQuest/go-nvml/pkg/dl"
 )
 
 import "C"
