@@ -12,6 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+// +build !darwin
+
 package dl
 
 import (
@@ -31,7 +33,7 @@ const (
 	RTLD_LOCAL = C.RTLD_LOCAL
 	RTLD_NODELETE = C.RTLD_NODELETE
 	RTLD_NOLOAD = C.RTLD_NOLOAD
-	RTLD_DEEPBIND = C.RTLD_DEEPBIND
+	//RTLD_DEEPBIND = C.RTLD_DEEPBIND
 )
 
 type DynamicLibrary struct{
